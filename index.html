@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spherical Capacitor Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="capacitanceofSphericalCapacitorRadio" name="variables" checked>
+  <label for="capacitanceofSphericalCapacitorRadio">Capacitance of Spherical Capacitor</label>
+
+  <input type="radio" id="radiusoftheOuterConductorRadio" name="variables" disabled>
+  <label for="radiusoftheOuterConductorRadio">Radius of the Outer Conductor</label>
+
+  <input type="radio" id="radiusoftheInnerConductorRadio" name="variables" disabled>
+  <label for="radiusoftheInnerConductorRadio">Radius of the Inner Conductor</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">(b) Radius of the Outer Conductor (m)</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">(a) Radius of the Inner Conductor (m)</label>
+  <input type="number" id="v2"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
